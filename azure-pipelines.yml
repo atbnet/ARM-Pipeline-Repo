@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'ATB-T-UKS-LAB-DEVOPS-PIPELINE2-RG'
     location: 'UK South'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/atbnet/ARM-Pipeline-Repo/master/WebApp/azuredeploy.json?token=ARA7W3KGYV4PLV6L473SWL3AKUXHQ'
+    csmFileLink: 'https://raw.githubusercontent.com/atbnet/ARM-Pipeline-Repo/master/WebApp/azuredeploy.json'
     overrideParameters: '-projectName atbtest2'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
