@@ -20,7 +20,7 @@ steps:
     location: 'UK South'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/atbnet/ARM-Pipeline-Repo/master/WebApp/azuredeploy.json'
-    overrideParameters: '-projectName [atbtest]'
+    overrideParameters: '-projectName atbtest'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
 
