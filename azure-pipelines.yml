@@ -16,11 +16,11 @@ steps:
     azureResourceManagerConnection: 'ARM-Pipeline-Connection'
     subscriptionId: '4d11fd7a-7e11-4d3f-89ee-1c7997185652'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'ATB-T-UKS-LAB-DEVOPS-PIPELINE-RG'
+    resourceGroupName: 'ATB-T-UKS-LAB-DEVOPS-PIPELINE2-RG'
     location: 'UK South'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/atbnet/ARM-Pipeline-Repo/master/WebApp/azuredeploy.json'
-    overrideParameters: '-projectName atbtest'
+    overrideParameters: '-projectName atbtest2'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
 
