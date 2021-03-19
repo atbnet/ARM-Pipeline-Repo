@@ -39,7 +39,7 @@
         "mode": "Incremental",
         "templateLink": {
           //"relativePath": "linkedStorageAccount.json"
-          "uri": "https://raw.githubusercontent.com/atbnet/ARM-Pipeline-Repo/master/WebApp/linkedStorageAccount.json?token=ARA7W3PRGSUSPHTQRILZI43AKUXOM"
+          "uri": "https://raw.githubusercontent.com/atbnet/ARM-Pipeline-Repo/master/WebApp/linkedStorageAccount.json"
         },
         "parameters": {
           "storageAccountName": {
